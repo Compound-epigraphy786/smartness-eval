@@ -1,0 +1,11 @@
+{
+  "ownerId": "yh22e",
+  "slug": "openclaw-smartness-eval",
+  "version": "0.2.1",
+  "publishedAt": 1773892800000,
+  "name": "OpenClaw Smartness Eval",
+  "author": "圆规",
+  "description": "12维度 AI Agent 智能度评估技能。通过 28 项自动化测试 + 多数据源交叉验证 + 反作弊探针，量化评估 Agent 的理解、推理、自我迭代、泛化等能力。",
+  "keywords": ["agent-eval", "benchmark", "smartness", "openclaw", "self-assessment"],
+  "repository": "https://github.com/yh22e/smartness-eval"
+}
