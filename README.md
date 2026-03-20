@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🎯 OpenClaw Smartness Eval
 
@@ -333,4 +333,4 @@ If this project helps you understand your AI agent better:
 4. **💬 Open a Discussion** — share tips, ask questions, suggest dimensions
 
 > _"The first step to building a smarter agent is knowing exactly how smart it is today."_
-]]>
+

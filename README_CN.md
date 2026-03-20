@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # 🎯 OpenClaw Smartness Eval — 完整中文文档
 
@@ -387,4 +387,3 @@ _"进步的第一步，是精确知道自己现在站在哪里。"_
 ⭐ 如果这个项目对你有帮助，请 Star 本仓库
 
 </div>
-]]>

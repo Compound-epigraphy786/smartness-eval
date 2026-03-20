@@ -1,4 +1,4 @@
-<![CDATA[# Scoring Formulas / 评分公式详解 (v0.3.0)
+# Scoring Formulas / 评分公式详解 (v0.3.0)
 
 This document explains how each of the **14** dimension scores is computed, how they combine into an overall score, and how grades are assigned.
 
@@ -393,4 +393,3 @@ v0.3.0 evaluation dimensions are aligned with established frameworks:
 | Policy adherence | Assurance | — | Safety evaluation |
 | Tool reliability | Reliability | — | Code-based graders |
 | Calibration | Assurance | Review | LLM-as-judge calibration |
-]]>

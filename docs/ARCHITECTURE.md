@@ -1,4 +1,4 @@
-<![CDATA[# Architecture / 架构设计
+# Architecture / 架构设计
 
 ## Overview / 概述
 
@@ -159,4 +159,3 @@ task-suite.json                   validate_command()
 | pass@k in deep mode | Single-run noise is high; repeated runs give reliability estimate / 重复运行降低方差 |
 | Graceful fallback | Missing data files → default values, never crash / 缺数据不崩溃 |
 | No external deps | Stdlib only (except optional urllib for LLM judge) / 仅标准库 |
-]]>

@@ -1,4 +1,4 @@
-<![CDATA[# Showcase / 案例展示
+# Showcase / 案例展示
 
 Real-world evaluation results and sharing guidelines.
 
@@ -147,4 +147,3 @@ https://github.com/xyva-yuangui/smartness-eval
 | Monthly audit | `deep` | Comprehensive assessment with high reliability / 月度深度审计 |
 | Conference demo | `deep` + `--llm-judge` | Full evaluation with LLM subjective scoring / 演示展示 |
 | Community benchmarking | Any + share result | Compare scores across different setups / 社区横向对比 |
-]]>

@@ -1,4 +1,4 @@
-<![CDATA[# Roadmap / 路线图
+# Roadmap / 路线图
 
 Future plans for OpenClaw Smartness Eval.
 
@@ -56,4 +56,3 @@ Future plans for OpenClaw Smartness Eval.
 3. Submit a PR for any planned feature — see [CONTRIBUTING.md](../CONTRIBUTING.md)
 
 欢迎通过 Issue（标签 `roadmap`）提出建议，或直接提交 PR。
-]]>

@@ -1,4 +1,4 @@
-<![CDATA[# Growth Playbook / 增长策略
+# Growth Playbook / 增长策略
 
 How to increase awareness and stars for this project.
 
@@ -138,4 +138,3 @@ Quantify how smart your agent really is.
 Title: "📊 Share your eval score! / 分享你的评估分数！"
 
 Body: Invite users to post their evaluation results as comments. This creates social proof and engagement.
-]]>

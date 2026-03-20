@@ -1,4 +1,4 @@
-<![CDATA[# FAQ / 常见问题
+# FAQ / 常见问题
 
 ---
 
@@ -145,4 +145,3 @@ Any command that fails validation is blocked and recorded as `BLOCKED_UNSAFE_COM
 **EN:** See [SECURITY.md](../SECURITY.md). Please report security vulnerabilities privately via GitHub Security Advisories rather than public issues.
 
 **CN:** 详见 [SECURITY.md](../SECURITY.md)。请通过 GitHub Security Advisories 私密报告安全漏洞，而非公开 Issue。
-]]>
