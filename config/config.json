@@ -1,38 +1,46 @@
 {
-  "version": "0.3.0",
-  "weights": {
-    "main": {
-      "understanding": 9,
-      "analysis": 9,
-      "thinking": 9,
-      "reasoning": 13,
-      "self_iteration": 9,
-      "dialogue_communication": 9,
-      "responsiveness": 5
+  "version": "1.0.0",
+  "kernel_entry": "scripts/cognitive-kernel-v6.py",
+  "layers": {
+    "functional": {
+      "weight": 70,
+      "description": "Deterministic capability tests via kernel --process"
     },
-    "expanded": {
-      "robustness": 7,
-      "generalization": 5,
-      "planning": 5,
-      "hallucination_control": 6,
-      "policy_adherence": 5,
-      "tool_reliability": 4,
-      "calibration": 5
+    "health": {
+      "weight": 20,
+      "description": "Runtime system health metrics"
+    },
+    "growth": {
+      "weight": 10,
+      "description": "Knowledge accumulation and self-improvement"
     }
+  },
+  "dimensions": {
+    "intent_understanding":  {"layer": "functional", "weight": 20},
+    "safety_awareness":      {"layer": "functional", "weight": 15},
+    "task_routing":          {"layer": "functional", "weight": 15},
+    "response_quality":      {"layer": "functional", "weight": 10},
+    "robustness":            {"layer": "functional", "weight": 10},
+    "latency":               {"layer": "health",     "weight": 8},
+    "error_control":         {"layer": "health",     "weight": 6},
+    "infrastructure":        {"layer": "health",     "weight": 6},
+    "knowledge":             {"layer": "growth",     "weight": 4},
+    "self_improvement":      {"layer": "growth",     "weight": 3},
+    "pattern_learning":      {"layer": "growth",     "weight": 3}
   },
   "modes": {
     "quick": {
-      "task_tags": ["quick", "core"],
+      "task_tags": ["quick"],
       "repeat_count": 1,
       "window_days": 3
     },
     "standard": {
-      "task_tags": ["quick", "core", "standard"],
+      "task_tags": ["quick", "standard"],
       "repeat_count": 1,
       "window_days": 7
     },
     "deep": {
-      "task_tags": ["quick", "core", "standard", "deep"],
+      "task_tags": ["quick", "standard", "deep"],
       "repeat_count": 2,
       "window_days": 30
     }

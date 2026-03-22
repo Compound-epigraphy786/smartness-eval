@@ -7,6 +7,44 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [1.0.0] - 2026-03-22
+
+### Breaking Changes / 重大变更
+- **Complete architecture rewrite** — Replaced 14-dimension mixed-signal scoring with clean 3-layer architecture: Functional Tests (70%) + System Health (20%) + Growth (10%).
+  完全重写评分架构：三层设计（功能测试70% + 系统健康20% + 成长进化10%）。
+- **Version-agnostic tests** — All functional tests now use `cognitive-kernel-v6.py --process` as single entry point. Removed all hardcoded `message-analyzer-v5.py` calls that broke on every version upgrade.
+  版本无关测试：所有功能测试统一走 kernel --process，移除导致每次升级分数下滑的硬编码V5脚本调用。
+- **New 11 dimensions** — `intent_understanding`, `safety_awareness`, `task_routing`, `response_quality`, `robustness`, `latency`, `error_control`, `infrastructure`, `knowledge`, `self_improvement`, `pattern_learning`.
+  新11维度评分体系。
+
+### Added / 新增
+- **`--workspace` flag** — Override workspace path for standalone usage.
+  新增 `--workspace` 参数支持独立运行。
+- **Auto workspace discovery** — Detects workspace via `OPENCLAW_WORKSPACE` env, installed-skill parent, or `~/.openclaw/workspace` default.
+  自动发现工作目录。
+- **30 capability tests** — Intent recognition (7), safety awareness (6), task routing (5), response quality (5), robustness (4), infrastructure (4).
+  30项能力测试覆盖6个功能维度。
+- **Health metrics from V6+ state files** — Reads kernel log DB, error-tracker, healing-log, cron-governor for real system health.
+  从V6+状态文件采集健康指标。
+- **Growth metrics** — Tracks reasoning store, memory index, reflection reports, rule candidates, pattern library, auto-rules.
+  成长指标追踪。
+
+### Removed / 移除
+- **Anti-gaming probes** — Removed randomized probe tests that used deprecated `message-analyzer-v5.py`.
+  移除使用过期脚本的反作弊探针。
+- **Mixed-signal scoring** — Removed arbitrary metric blending (e.g., duplicate_reply_rate affecting analysis score).
+  移除无关指标混合评分。
+- **Fallback scores** — No more `ts_or('dim', 60)` masking missing data with fake scores.
+  移除虚假兜底分数。
+
+### Fixed / 修复
+- **Score drops on upgrade** — Root cause was hardcoded V5 script paths in tests. Now all tests use the current kernel.
+  修复每次升级导致分数下滑的根本原因。
+- **Proxy metrics** — Each dimension now scored by directly relevant evidence only.
+  每个维度仅由直接相关的证据评分。
+
+---
+
 ## [0.2.1] - 2026-03-16
 
 ### Added / 新增
